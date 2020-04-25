@@ -4,15 +4,6 @@
     <groupId>com.jmeter.maven</groupId>
     <artifactId>mvn-jmeter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-	<!--<dependencies>
-	<dependency>
-    <groupId>all</groupId>
-    <artifactId>all</artifactId>
-    <version>1.1</version>
-	<scope>system</scope>
-    <systemPath>${basedir}/src/main/resources/tag-jmeter-extn-1.1.jar</systemPath>
-    </dependency>
-	</dependencies>-->
     <build>
         <plugins>
             <plugin>
@@ -20,15 +11,13 @@
                 <artifactId>jmeter-maven-plugin</artifactId>
                 <version>2.8.0</version>
                 <configuration>
-				    <tasks>
-					<copy file="${basedir}/src/main/resources/tag-jmeter-extn-1.1.jar" 
-									  tofile="${basedir}/target/jmeter/lib/ext/" />			  
-					</tasks>
                     <testResultsTimestamp>false</testResultsTimestamp>
                     <propertiesUser>
-                        <!--<threadgroup.count>${count}</threadgroup.count>
-                        <threadgroup.rampup>${rampup}</threadgroup.rampup>
-                        <threadgroup.duration>${duration}</threadgroup.duration>-->
+                        <purchase.usercount>${pusrchae_usercount}</purchase.usercount>
+                        <pusrchase.rampup>${Purchase_rampup}</pusrchase.rampup>
+						<Add.usercount>${Add_usercount}</Add.usercount>
+                        <Add.rampup>${Add_rampup}</Add.rampup>
+                        <duration>${duration}</duration>
                         <jmeter.save.saveservice.output_format>csv</jmeter.save.saveservice.output_format>
                         <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
                         <jmeter.save.saveservice.label>true</jmeter.save.saveservice.label>
@@ -40,10 +29,10 @@
                         <jmeter.save.saveservice.thread_name>true</jmeter.save.saveservice.thread_name>
                         <jmeter.save.saveservice.time>true</jmeter.save.saveservice.time>
                     </propertiesUser>
-                    <propertiesFilesDirectory>${basedir}/src/test/jmeter</propertiesFilesDirectory>
+                    <!--<propertiesFilesDirectory>${basedir}/src/test/jmeter</propertiesFilesDirectory>
 					<propertiesUser>
 					<module>${module_to_run}</module>
-					</propertiesUser>
+					</propertiesUser>-->
                 </configuration>
                 <executions>
                     <execution>
