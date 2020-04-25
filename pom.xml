@@ -13,7 +13,7 @@
                 <configuration>
                     <testResultsTimestamp>false</testResultsTimestamp>
                     <propertiesUser>
-                        <purchase.usercount>${pusrchae_usercount}</purchase.usercount>
+                        <purchase.usercount>${Pusrchae_usercount}</purchase.usercount>
                         <pusrchase.rampup>${Purchase_rampup}</pusrchase.rampup>
 						<Add.usercount>${Add_usercount}</Add.usercount>
                         <Add.rampup>${Add_rampup}</Add.rampup>
