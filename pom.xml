@@ -17,7 +17,7 @@
                         <Purchase.rampup>${Purchase_rampup}</Purchase.rampup>
 						<Add.usercount>${Add_usercount}</Add.usercount>
                         <Add.rampup>${Add_rampup}</Add.rampup>
-                        <duration>${duration}</duration>
+                        <duration>${Duration}</duration>
                         <jmeter.save.saveservice.output_format>csv</jmeter.save.saveservice.output_format>
                         <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
                         <jmeter.save.saveservice.label>true</jmeter.save.saveservice.label>
