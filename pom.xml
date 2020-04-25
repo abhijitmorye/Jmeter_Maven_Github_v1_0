@@ -12,6 +12,7 @@
                 <version>2.8.0</version>
                 <configuration>
                     <testResultsTimestamp>false</testResultsTimestamp>
+                    <generateReports>true</generateReports>                       
                     <propertiesUser>
                         <Purchase.usercount>${Purchase_usercount}</Purchase.usercount>
                         <Purchase.rampup>${Purchase_rampup}</Purchase.rampup>
