@@ -14,11 +14,52 @@
                     <testResultsTimestamp>false</testResultsTimestamp>
                     <generateReports>true</generateReports>                       
                     <propertiesUser>
-                        <Purchase.usercount>${Purchase_usercount}</Purchase.usercount>
-                        <Purchase.rampup>${Purchase_rampup}</Purchase.rampup>
-						<Add.usercount>${Add_usercount}</Add.usercount>
-                        <Add.rampup>${Add_rampup}</Add.rampup>
-                        <duration>${Duration}</duration>
+                        <A.usercount>${A_usercount}</A.usercount>
+                        <A.rampup>${A_rampup}</A.rampup>
+						<A.duration>${A_Duration}</A.duration>
+						<B.usercount>${B_usercount}</B.usercount>
+                        <B.rampup>${B_rampup}</B.rampup>
+                        <B.duration>${B_Duration}</B.duration>
+						<C.usercount>${C_usercount}</C.usercount>
+                        <C.rampup>${C_rampup}</C.rampup>
+						<C.rampup_steps>${C_rampup_steps}</C.rampup_steps>
+                        <C.duration>${C_Duration}</C.duration>
+						<D.usercount>${D_usercount}</D.usercount>
+                        <D.rampup>${D_rampup}</D.rampup>
+						<D.rampup_steps>${D_rampup_steps}</D.rampup_steps>
+                        <D.duration>${D_Duration}</D.duration>
+						<E.usercount>${E_usercount}</E.usercount>
+                        <E.rampup>${E_rampup}</E.rampup>
+						<E.rampup_steps>${E_rampup_steps}</E.rampup_steps>
+                        <E.duration>${E_Duration}</E.duration>
+						<F.usercount>${F_usercount}</F.usercount>
+                        <F.rampup>${F_rampup}</F.rampup>
+						<F.rampup_steps>${F_rampup_steps}</F.rampup_steps>
+                        <F.duration>${F_Duration}</F.duration>
+						<G.usercount>${G_usercount}</G.usercount>
+                        <G.rampup>${G_rampup}</G.rampup>
+						<G.rampup_steps>${G_rampup_steps}</G.rampup_steps>
+                        <G.duration>${G_Duration}</G.duration>
+						<H.usercount>${H_usercount}</H.usercount>
+                        <H.rampup>${H_rampup}</H.rampup>
+						<H.rampup_steps>${H_rampup_steps}</H.rampup_steps>
+                        <H.duration>${H_Duration}</H.duration>
+						<I.usercount>${I_usercount}</I.usercount>
+                        <I.rampup>${I_rampup}</I.rampup>
+						<I.rampup_steps>${I_rampup_steps}</I.rampup_steps>
+                        <I.duration>${I_Duration}</I.duration>
+						<J.usercount>${J_usercount}</J.usercount>
+                        <J.rampup>${J_rampup}</J.rampup>
+						<J.rampup_steps>${J_rampup_steps}</J.rampup_steps>
+                        <J.duration>${J_Duration}</J.duration>
+						<K.usercount>${K_usercount}</K.usercount>
+                        <K.rampup>${K_rampup}</K.rampup>
+						<K.rampup_steps>${K_rampup_steps}</K.rampup_steps>
+                        <K.duration>${K_Duration}</K.duration>
+						<L.usercount>${L_usercount}</L.usercount>
+                        <L.rampup>${L_rampup}</L.rampup>
+						<L.rampup_steps>${L_rampup_steps}</L.rampup_steps>
+                        <L.duration>${L_Duration}</L.duration>						
                         <jmeter.save.saveservice.output_format>csv</jmeter.save.saveservice.output_format>
                         <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
                         <jmeter.save.saveservice.label>true</jmeter.save.saveservice.label>
