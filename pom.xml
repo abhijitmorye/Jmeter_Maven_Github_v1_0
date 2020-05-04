@@ -75,6 +75,11 @@
 					<propertiesUser>
 					<module>${module_to_run}</module>
 					</propertiesUser>-->
+					 <remoteConfig>
+                     <startServersBeforeTests>true</startServersBeforeTests>
+                     <serverList>169.254.167.254</serverList>
+                     <stopServersAfterTests>true</stopServersAfterTests>
+                     </remoteConfig>					
                 </configuration>
                 <executions>
                     <execution>
