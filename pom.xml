@@ -77,7 +77,7 @@
 					</propertiesUser>-->
 					 <remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
-                     <serverList>169.254.167.254:1099</serverList>
+                     <serverList>10.128.0.6</serverList>
                      <stopServersAfterTests>true</stopServersAfterTests>
                      </remoteConfig>					
                 </configuration>
