@@ -17,7 +17,7 @@
                         <A.usercount>${A_usercount}</A.usercount>
                         <A.rampup>${A_rampup}</A.rampup>
 						<A.duration>${A_Duration}</A.duration>
-						<!--<B.usercount>${B_usercount}</B.usercount>
+						<B.usercount>${B_usercount}</B.usercount>
                         <B.rampup>${B_rampup}</B.rampup>
                         <B.duration>${B_Duration}</B.duration>
 						<C.usercount>${C_usercount}</C.usercount>
@@ -59,7 +59,7 @@
 						<L.usercount>${L_usercount}</L.usercount>
                         <L.rampup>${L_rampup}</L.rampup>
 						<L.rampup_steps>${L_rampup_steps}</L.rampup_steps>
-                        <L.duration>${L_Duration}</L.duration>-->					
+                        <L.duration>${L_Duration}</L.duration>					
                         <jmeter.save.saveservice.output_format>csv</jmeter.save.saveservice.output_format>
                         <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
                         <jmeter.save.saveservice.label>true</jmeter.save.saveservice.label>
