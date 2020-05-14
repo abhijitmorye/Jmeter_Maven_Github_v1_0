@@ -71,18 +71,14 @@
                         <jmeter.save.saveservice.thread_name>true</jmeter.save.saveservice.thread_name>
                         <jmeter.save.saveservice.time>true</jmeter.save.saveservice.time>
                     </propertiesUser>
-                    <!--<propertiesFilesDirectory>${basedir}/src/test/jmeter</propertiesFilesDirectory>
-					<propertiesUser>
-					<module>${module_to_run}</module>
-					</propertiesUser>-->
-					 <remoteConfig>
+					 <!--<remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
                      <serverList>34.69.129.52</serverList>
                      <stopServersAfterTests>true</stopServersAfterTests>
                      </remoteConfig>
 					<propertiesSystem>
                     <java.rmi.server.hostname>192.168.0.107</java.rmi.server.hostname>
-                    </propertiesSystem>
+                    </propertiesSystem>-->
                 </configuration>
                 <executions>
                     <execution>
@@ -94,34 +90,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--<plugin>
-                <artifactId>maven-antrun-plugin</artifactId>
-				<version>3.0.0</version>
-                <executions>
-                    <execution>
-                        <phase>pre-site</phase>
-                        <configuration>
-                            <tasks>
-                                <mkdir dir="${basedir}/target/jmeter/results/dashboard" />
-                                <copy file="${basedir}/src/test/resources/reportgenerator.properties" 
-									  tofile="${basedir}/target/jmeter/bin/reportgenerator.properties" />
-                                <copy todir="${basedir}/target/jmeter/bin/report-template">
-                                    <fileset dir="${basedir}/src/test/resources/report-template" />
-                                </copy>
-                                <java jar="${basedir}/target/jmeter/bin/ApacheJMeter-5.0.jar" fork="true">
-                                    <arg value="-g" />
-                                    <arg value="${basedir}/target/jmeter/results/*.csv" />
-                                    <arg value="-o" />
-                                    <arg value="${basedir}/target/jmeter/results/dashboard/" />
-                                </java>
-                            </tasks>
-                        </configuration>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>-->
         </plugins>
     </build> 
 </project>
