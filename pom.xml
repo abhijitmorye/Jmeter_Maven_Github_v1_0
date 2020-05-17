@@ -81,7 +81,7 @@
                      <stopServersAfterTests>true</stopServersAfterTests>
                      </remoteConfig>
 					<propertiesSystem>
-                    <java.rmi.server.hostname>192.168.0.105</java.rmi.server.hostname>
+                    <java.rmi.server.hostname>103.205.131.54</java.rmi.server.hostname>
                     </propertiesSystem>
                 </configuration>
                 <executions>
