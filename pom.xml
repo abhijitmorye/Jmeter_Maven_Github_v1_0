@@ -71,14 +71,18 @@
                         <jmeter.save.saveservice.thread_name>true</jmeter.save.saveservice.thread_name>
                         <jmeter.save.saveservice.time>true</jmeter.save.saveservice.time>
                     </propertiesUser>
-					 <!--<remoteConfig>
+					<jmeterVersion>5.0</jmeterVersion>
+					<propertiesJMeter>
+                    <remote_hosts>35.202.240.189</remote_hosts>
+                    </propertiesJMeter>
+					 <remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
-                     <serverList>34.69.129.52</serverList>
+                     <!--<serverList>34.69.129.52</serverList>-->
                      <stopServersAfterTests>true</stopServersAfterTests>
                      </remoteConfig>
 					<propertiesSystem>
-                    <java.rmi.server.hostname>192.168.0.107</java.rmi.server.hostname>
-                    </propertiesSystem>-->
+                    <java.rmi.server.hostname>192.168.0.105</java.rmi.server.hostname>
+                    </propertiesSystem>
                 </configuration>
                 <executions>
                     <execution>
