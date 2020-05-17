@@ -73,7 +73,7 @@
                     </propertiesUser>
 					<jmeterVersion>5.0</jmeterVersion>
 					<propertiesJMeter>
-                    <remote_hosts>35.202.240.189</remote_hosts>
+                    <remote_hosts>35.202.240.189:4000</remote_hosts>
                     </propertiesJMeter>
 					 <remoteConfig>
                      <startServersBeforeTests>true</startServersBeforeTests>
